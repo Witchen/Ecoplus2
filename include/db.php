@@ -3,14 +3,14 @@
 date_default_timezone_set("Asia/Jakarta");
 
 Class Database{
-	
+
 	static $connection;
-	
+
 	public static function GetConnection(){
 		return Database::OpenDBConnection();
 	}
-	
-	private function OpenDBConnection(){
+
+	private static function OpenDBConnection(){
 		$servername = "localhost";
 		$username = "k5413684_reader";
 		$password = "Readerpass312";
@@ -23,7 +23,7 @@ Class Database{
 		}
 		return $connection;
 	}
-	
+
 }
 
 ?>
