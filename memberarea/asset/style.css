@@ -1,0 +1,148 @@
+/* 
+    Document   : style
+    Created on : Feb 18, 2012, 3:20:48 PM
+    Author     : kangtatang
+    Description:
+*/
+
+body{ 
+    background-color: white;
+    text-align: justify;
+    font-size: 100%;
+    background-image: url(bg.gif);
+    background-repeat: repeat;
+    font-family: arial, Helvetica, sans-serif, verdana;
+}
+
+#kontainer{
+    margin: auto;
+    width: 970px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#header{
+    margin: auto;
+    height: 221px;
+    background-image: url(header.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+#menu{
+    margin: auto;
+    height: 30px;
+    background-image: url(bg-menu.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#konten{
+    margin: auto;
+    min-height: 500px;
+    padding-left: 5px;
+    background-image: url(bg_body.png);
+    background-repeat: repeat-y;
+}
+#footer{
+    margin: auto;
+    height: 32px;
+    background-image: url(bg_footer.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+
+#sidebar{
+    margin: auto;
+    width: 200px;
+    min-height: 200px;
+    background-image: url(bg-sidebar.jpg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    float: left;
+    display: inline;    
+}
+
+#mainkonten{
+    margin: auto;
+    margin-top: 0px;
+    width: 740px;
+    background-image: url(bg-konten.jpg);
+    background-position: left top ;
+    min-height: 100px;
+    background-repeat: no-repeat;
+    float: left;
+    display: inline;
+    padding: 10px;
+}
+#tabel-menu{
+    width: 760px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+#tabel-menu td{
+    width: 190px;
+    height: 30px;
+}
+#box1{
+    width: 200px;
+    height: 30px;
+    float: left;
+    display: inline;
+}
+.box-menu{
+    width: 190px;
+    height: 30px;
+    float: left;
+    display: inline;
+}
+.clear{
+    clear: both;
+}
+img a{
+    border: none;
+}
+.header-box{
+    background-image: url(bg-menu-sd.png);
+    height: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 5px;
+}
+.isi-box{
+    background-image: url(style.css);
+    background-repeat: repeat;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+    padding-left: 20px;
+    padding-top: 80px;
+}
+.menu-sd{
+    list-style: none;
+}
+.menu-sd li{
+    margin-bottom: 5px;
+    color:#FFFFFF;
+    
+}
+.menu-sd a{
+    color: inherit;
+    text-decoration: none;
+}
+.menu-sd li a:hover{
+    text-decoration: none;    
+}
+
+.back:hover {
+background-image: url(bg-isi-box.png);
+background-repeat: repeat;
+color:#000000;
+font-weight:bold;
+} 
